@@ -520,8 +520,7 @@ body {
     width: 100%;
     background-color: #1a2b5f;
     text-align: center;
-    border-bottom-left-radius: 3rem;
-    border-bottom-right-radius: 3rem;
+    border-radius: 3rem;
     transform: translateX(100%);
     transition: All 0.3s linear;
     z-index: 2;
@@ -661,6 +660,29 @@ body {
   .subscribe__social i {
     font-size: 3.2rem;
     margin: 0;
+  }
+
+  .footer__container {
+    text-align: -webkit-center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+  .footer__item {
+    width: 50%;
+    margin-bottom: 4rem;
+  }
+  .footer__item--logo {
+    padding: 5px;
+  }
+  .footer__link {
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 1rem;
+    width: initial;
+  }
+  .footer-cpr__link {
+    font-size: 1rem;
+    margin: 0 5px 0 0;
   }
 }
 @media screen and (min-width: 735px) {
