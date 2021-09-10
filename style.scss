@@ -660,7 +660,6 @@ body {
                 margin-left: 2rem;
                 margin-right: 2rem;
                 margin-top: 3rem;
-                color: $text-color;
                 &:first-child {
                     margin-left: 0;
                 }
@@ -669,6 +668,7 @@ body {
                 }
             }
             i {
+                color: $text-color;
                 font-size: 3.2rem;
                 margin: 0;
             }

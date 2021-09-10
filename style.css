@@ -649,7 +649,6 @@ body {
     margin-left: 2rem;
     margin-right: 2rem;
     margin-top: 3rem;
-    color: #1a2b5f;
   }
   .subscribe__social a:first-child {
     margin-left: 0;
@@ -658,6 +657,7 @@ body {
     margin-right: 0;
   }
   .subscribe__social i {
+    color: #1a2b5f;
     font-size: 3.2rem;
     margin: 0;
   }
