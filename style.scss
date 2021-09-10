@@ -400,9 +400,14 @@ body {
     &__button {
         cursor: pointer;
     }
-    &__social i {
-        font-size: 2.2rem;
-        margin-left: 4rem;
+    &__social {
+        a {
+            color: $text-color;
+        }
+        i {
+            font-size: 2.2rem;
+            margin-left: 4rem;
+        }
     }
 }
 
