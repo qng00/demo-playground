@@ -605,6 +605,10 @@ body {
     margin-top: 5rem;
   }
 
+  .feature__image {
+    width: 250px;
+  }
+
   .partner__list {
     display: flex;
     align-items: center;

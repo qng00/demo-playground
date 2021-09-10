@@ -616,6 +616,11 @@ body {
             margin-top: 5rem;
         }
     }
+    .feature {
+        &__image {
+            width: 250px;
+        }
+    }
     .partner {
         &__list {
             @include flex(center, center, nowrap, column)
