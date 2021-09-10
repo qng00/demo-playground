@@ -159,13 +159,13 @@ body {
         &:first-child {
             box-shadow: 0 20px 35px -5px rgba(254, 152, 196, .4)
         }
-        &:nth-child(2) {
+        &:nth-child(3) {
             box-shadow: 0 20px 35px -5px rgba(255, 113, 108, .4)
         }
-        &:nth-last-child(2) {
+        &:nth-child(4) {
             box-shadow: 0 20px 35px -5px rgba(113, 153, 255, .4)
         }
-        &:last-child {
+        &:nth-child(5) {
             box-shadow: 0 20px 35px -5px rgba(255, 199, 123, .4)
         }
     }
